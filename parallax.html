@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wildlife Photography</title>
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="parallax.css">
+    <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@515&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/35fd41f5c3.js" crossorigin="anonymous"></script>
+    <style media="screen">
+    .sidepanel  {
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      height: 100%;
+      top: 0;
+      left:0;
+      background-image: url('web.jpg');
+      /* Full height */
+      height: 100vh;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidepanel a {
+      padding: 12px 32px 12px 64px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidepanel a:hover {
+      color: #f1f1f1;
+    }
+    .sidepanel .closebtn {
+      position: absolute;
+      top: 0;
+      float: left;
+      padding: 10px 15px;
+      padding-left: 20px;
+      font-size: 40px;
+      font-weight:lighter;
+    }
+    </style>
+  </head>
+  <body>
+      <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="about.html">About me</a>
+      <a href="#">Land of giant</a>
+      <a href="#">Black panther</a>
+      <a href="#">Camera traps</a><a href="#">Nocturnal</a><a href="#">Gallery</a>
+      </div>
+      <div style="width:100%;top:0;position:sticky;">
+      <div class="homeNav">
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <center><div class="container1 fadeInUp" style="width:50%;">
+        <h1 style="text-align:center;color:#fff;font-family: 'Alex Brush', cursive;padding-top:4%;padding-left:4%;padding-right:4%;">Wildlife Photography</h1>
+        <p style="text-align:center;color:#fff;font-weight: lighter;padding-left:4%;padding-bottom:4%;padding-right:4%;">by Will Burrard-Lucas</p>
+      </div></center>
+      </div>
+      <div class="top-container">
+      <center><div class="container1 fadeInUp">
+      <h1 style="text-align:center;color:#fff;padding-top:4%;padding-left:4%;padding-right:4%;">Featured Photography Project</h1>
+      <p style="text-align:center;color:#fff;padding-left:4%;padding-bottom:4%;padding-right:4%;">I have selected three of my
+        favourite photography projects to feature on this page.
+        To view more of my wildlife photographs, please head over to my photography website.</p>
+      </div></center>
+      </div>
+      <div class="bottom-container">
+      <center><div class="container1 fadeInUp">
+      <h1 style="text-align:center;color:#fff;padding-top:4%;padding-left:4%;padding-right:4%;">Meerkat</h1>
+      <p style="text-align:center;color:#fff;padding-left:4%;padding-bottom:4%;padding-right:4%;">I have made two trips to Botswana
+        to photograph the Meerkats in the Makgadikgadi Pans region. These wild meerkats have been habituated to humans so it possible
+        to get close to them.</p>
+     </div></center>
+     </div>
+     <div class="middle-container">
+      <center><div class="container1 fadeInUp">
+      <h1 style="text-align:center;color:#fff;padding-top:4%;padding-left:4%;padding-right:4%;">Zambia</h1>
+      <p style="text-align:center;color:#fff;padding-left:4%;padding-bottom:4%;padding-right:4%;">In 2012-2013 I lived in Zambia for
+         a year and I have since made several repeat visits to the country. I have primarily focused on documenting the wildlife of
+         the Luangwa Valley and the region’s dramatic seasonal variations. I have also spent time in Liuwa Plain, Kafue, Kasanka and
+          Lower Zambezi National Parks. Here are just a few of my favourite images from the country.</p>
+     </div></center>
+     </div>
+     <div class="remote-container">
+      <center><div class="container1 fadeInUp" >
+      <h1 style="text-align:center;color:#fff;padding-top:4%;padding-left:4%;padding-right:4%;">Remote & Camera Trap Photography</h1>
+      <p style="text-align:center;color:#fff;padding-left:4%;padding-bottom:4%;padding-right:4%;">Technology has helped
+         me to capture images of wildlife in new ways. In particular, remote-control cameras and camera traps have
+         allowed me to get my camera closer to my subjects than ever before. Here are some of my favourite resulting
+         images from across Africa.</p>
+     </div></center>
+     </div>
+     <footer id="footer">
+     <center>
+     <a href="#"><i class="fab fa-facebook-f fa-2x" style="color:#fff;padding-top:3%;padding-right:3%;"></i></a>
+     <a href="#"><i class="fab fa-instagram fa-2x" style="color:#fff;padding-top:3%;padding-right:3%;padding-left:3%;"></i></a>
+     <a href="#"><i class="fab fa-twitter fa-2x" style="color:#fff;padding-top:3%;padding-right:3%;padding-left:3%;"></i></a>
+     <a href="#"><i class="fab fa-youtube fa-2x" style="color:#fff;padding-top:3%;padding-left:3%;"></i></a>
+     <h1 class="footer" style="color:#fff;padding-top:5%;font-weight:lighter;font-family: 'Quicksand', sans-serif;">© 2020 Wildlife Photo.</h1>
+     <a href="#"><p style="text-decoration:none;color:#fff;padding-top:5%;font-weight:lighter;font-family: 'Quicksand', sans-serif;"> © 2020 WildlifePhoto.com | Privacy Policy | Terms of Service | Affiliate Information | Contact</p></a>
+     </center>
+     </footer>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="parallax.js" charset="utf-8"></script>
+  </body>
+</html>
