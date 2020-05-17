@@ -1,3 +1,7 @@
+*{
+margin: 0;
+padding: 0;
+}
 body {
   font-family: "Lato", sans-serif;
 }
@@ -56,7 +60,7 @@ body {
 .openbtn:hover {
   color:#444;
 }
-.homeNav{
+.homeNav , .about1 , .panther1 {
   /* The image used */
   background-image: url('cover.jpg');
 
@@ -73,7 +77,7 @@ body {
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%); */
 }
 
-.top-container{
+.top-container , .about2{
   /* The image used */
   background-image: url('elephant.jpg');
 
@@ -85,7 +89,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 .bottom-container{
   /* The image used */
@@ -99,21 +103,21 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 .middle-container{
   /* The image used */
   background-image: url('leepard.jpg');
 
   /* Full height */
-  height: 80vh;
+  height: 90vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25%;
+  padding-top: 35%;
 }
 .remote-container{
   /* The image used */
